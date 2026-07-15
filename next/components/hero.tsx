@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
+import { useState } from "react"
 import { ArrowDownIcon, ArrowRightIcon, SparklesIcon } from "lucide-react"
 import {
   motion,
@@ -16,27 +17,16 @@ import { VideoFade } from "@/components/video-fade"
 
 export function Hero() {
   const reducedMotion = useReducedMotion()
+  const [bookHovered, setBookHovered] = useState(false)
   const pointerX = useMotionValue(0)
   const pointerY = useMotionValue(0)
-  const springX = useSpring(pointerX, { stiffness: 90, damping: 22 })
-  const springY = useSpring(pointerY, { stiffness: 90, damping: 22 })
-  const rotateY = useTransform(springX, [-0.5, 0.5], [-7, 7])
-  const rotateX = useTransform(springY, [-0.5, 0.5], [6, -6])
+  const springX = useSpring(pointerX, { stiffness: 120, damping: 18 })
+  const springY = useSpring(pointerY, { stiffness: 120, damping: 18 })
+  const rotateY = useTransform(springX, [-0.5, 0.5], [-11, 11])
+  const rotateX = useTransform(springY, [-0.5, 0.5], [9, -9])
 
   return (
-    <section
-      className="relative flex min-h-screen w-full items-end overflow-hidden pt-32"
-      onPointerMove={(event) => {
-        if (reducedMotion) return
-        const bounds = event.currentTarget.getBoundingClientRect()
-        pointerX.set((event.clientX - bounds.left) / bounds.width - 0.5)
-        pointerY.set((event.clientY - bounds.top) / bounds.height - 0.5)
-      }}
-      onPointerLeave={() => {
-        pointerX.set(0)
-        pointerY.set(0)
-      }}
-    >
+    <section className="relative flex min-h-screen w-full items-end overflow-hidden pt-32">
       <VideoFade
         src="/media/gold-bloom.mp4"
         poster="/media/gold-bloom-poster.jpg"
@@ -91,9 +81,45 @@ export function Hero() {
               : { rotateX, rotateY, transformPerspective: 1100 }
           }
           initial={false}
-          animate={{ opacity: 1, scale: 1, rotate: 0 }}
-          transition={{ duration: 1.2, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-          className="relative mx-auto aspect-square w-full max-w-xl"
+          animate={
+            reducedMotion
+              ? { opacity: 1, scale: 1, y: 0, rotate: 0 }
+              : bookHovered
+                ? {
+                    opacity: 1,
+                    scale: 1.045,
+                    y: [0, -11, 0],
+                    rotate: [0, -1.1, 1, 0],
+                  }
+                : {
+                    opacity: 1,
+                    scale: 1,
+                    y: [0, -5, 0],
+                    rotate: [0, -0.35, 0],
+                  }
+          }
+          transition={
+            reducedMotion
+              ? { duration: 0 }
+              : {
+                  duration: bookHovered ? 2.6 : 5.2,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }
+          }
+          onPointerEnter={() => setBookHovered(true)}
+          onPointerMove={(event) => {
+            if (reducedMotion) return
+            const bounds = event.currentTarget.getBoundingClientRect()
+            pointerX.set((event.clientX - bounds.left) / bounds.width - 0.5)
+            pointerY.set((event.clientY - bounds.top) / bounds.height - 0.5)
+          }}
+          onPointerLeave={() => {
+            setBookHovered(false)
+            pointerX.set(0)
+            pointerY.set(0)
+          }}
+          className="group relative mx-auto aspect-square w-full max-w-xl cursor-grab touch-pan-y active:cursor-grabbing"
         >
           <div className="book-glow" />
           <Image
@@ -102,7 +128,7 @@ export function Hero() {
             fill
             priority
             sizes="(max-width: 1024px) 90vw, 44vw"
-            className="book-cover-shadow scale-[1.06] object-contain"
+            className="book-cover-shadow scale-[1.06] object-contain transition-[filter] duration-700 group-hover:drop-shadow-[0_45px_48px_rgb(0_0_0_/_0.78)]"
           />
         </motion.div>
 

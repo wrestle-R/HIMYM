@@ -84,12 +84,11 @@ export default function HomePage() {
 
       <section className="relative min-h-[78vh] overflow-hidden py-28 sm:py-40">
         <VideoFade
-          src="/media/cosmic-archive.mp4"
-          poster="/media/cosmic-archive-poster.jpg"
-          className="absolute inset-0 size-full object-cover"
+          src="/media/cosmic-archive-v2.mp4"
+          poster="/media/cosmic-archive-poster-v2.jpg"
+          className="cosmic-clarity-video absolute inset-0 size-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/25 to-background" />
-        <div className="grain-overlay" />
+        <div className="cosmic-clarity-overlay absolute inset-0" />
         <div className="site-shell relative z-10 flex min-h-[52vh] items-center justify-center text-center">
           <Reveal>
             <p className="text-xs tracking-[0.3em] text-gold uppercase">
