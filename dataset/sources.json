@@ -1,0 +1,37 @@
+[
+  {
+    "id": "user-table",
+    "label": "User-supplied screen-canon play table",
+    "kind": "user-supplied",
+    "url": null,
+    "notes": "Original scope and appearance-status list supplied for this private archive."
+  },
+  {
+    "id": "robin-page",
+    "label": "The Robin reference page",
+    "kind": "user-supplied",
+    "url": null,
+    "notes": "Authoritative transcription source for The Robin's fifteen numbered steps."
+  },
+  {
+    "id": "himym-wiki-playbook",
+    "label": "How I Met Your Mother Wiki — The Playbook (book)",
+    "kind": "reference",
+    "url": "https://how-i-met-your-mother.fandom.com/wiki/The_Playbook_%28book%29",
+    "notes": "Used to cross-check play names, episode relationships, and Playbook appearances."
+  },
+  {
+    "id": "tvdb-aired-order",
+    "label": "TheTVDB — How I Met Your Mother aired order",
+    "kind": "reference",
+    "url": "https://thetvdb.com/series/how-i-met-your-mother/allseasons/official",
+    "notes": "Used to normalize episode codes and titles."
+  },
+  {
+    "id": "fan-reconstruction",
+    "label": "Legend-dairy editorial reconstruction",
+    "kind": "original",
+    "url": null,
+    "notes": "Original numbered prose written for this archive; not copied from the commercial Playbook."
+  }
+]

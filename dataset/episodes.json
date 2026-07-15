@@ -1,0 +1,107 @@
+[
+  {
+    "id": "s01e03",
+    "season": 1,
+    "number": 3,
+    "code": "S01E03",
+    "title": "Sweet Taste of Liberty"
+  },
+  {
+    "id": "s03e14",
+    "season": 3,
+    "number": 14,
+    "code": "S03E14",
+    "title": "The Bracket"
+  },
+  {
+    "id": "s04e03",
+    "season": 4,
+    "number": 3,
+    "code": "S04E03",
+    "title": "I Heart NJ"
+  },
+  {
+    "id": "s04e04",
+    "season": 4,
+    "number": 4,
+    "code": "S04E04",
+    "title": "Intervention"
+  },
+  {
+    "id": "s04e09",
+    "season": 4,
+    "number": 9,
+    "code": "S04E09",
+    "title": "The Naked Man"
+  },
+  {
+    "id": "s05e08",
+    "season": 5,
+    "number": 8,
+    "code": "S05E08",
+    "title": "The Playbook"
+  },
+  {
+    "id": "s05e14",
+    "season": 5,
+    "number": 14,
+    "code": "S05E14",
+    "title": "Rabbit or Duck"
+  },
+  {
+    "id": "s08e10",
+    "season": 8,
+    "number": 10,
+    "code": "S08E10",
+    "title": "The Over-Correction"
+  },
+  {
+    "id": "s08e12",
+    "season": 8,
+    "number": 12,
+    "code": "S08E12",
+    "title": "The Final Page – Part Two"
+  },
+  {
+    "id": "s08e17",
+    "season": 8,
+    "number": 17,
+    "code": "S08E17",
+    "title": "The Ashtray"
+  },
+  {
+    "id": "s08e18",
+    "season": 8,
+    "number": 18,
+    "code": "S08E18",
+    "title": "Weekend at Barney's"
+  },
+  {
+    "id": "s09e09",
+    "season": 9,
+    "number": 9,
+    "code": "S09E09",
+    "title": "Platonish"
+  },
+  {
+    "id": "s09e16",
+    "season": 9,
+    "number": 16,
+    "code": "S09E16",
+    "title": "How Your Mother Met Me"
+  },
+  {
+    "id": "s09e17",
+    "season": 9,
+    "number": 17,
+    "code": "S09E17",
+    "title": "Sunrise"
+  },
+  {
+    "id": "s09e24",
+    "season": 9,
+    "number": 24,
+    "code": "S09E24",
+    "title": "Last Forever – Part Two"
+  }
+]

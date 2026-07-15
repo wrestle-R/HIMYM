@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pba-001",
+    "episodeId": "s05e08",
+    "label": "First appearance",
+    "description": "Barney reveals the leather-bound Playbook and demonstrates its entries."
+  },
+  {
+    "id": "pba-002",
+    "episodeId": "s08e10",
+    "label": "The apartment copy",
+    "description": "Robin exposes the Playbook while trapped in Barney's apartment."
+  },
+  {
+    "id": "pba-003",
+    "episodeId": "s08e12",
+    "label": "The final page",
+    "description": "The Robin appears as the last page of Barney's proposal play."
+  },
+  {
+    "id": "pba-004",
+    "episodeId": "s08e18",
+    "label": "The backup copy",
+    "description": "Barney reveals that the burned book was ceremonial and uses a backup copy."
+  },
+  {
+    "id": "pba-005",
+    "episodeId": "s09e17",
+    "label": "Passed on at sunrise",
+    "description": "Barney hands two young men a handwritten stack of Playbook napkins."
+  },
+  {
+    "id": "pba-006",
+    "episodeId": "s09e24",
+    "label": "Playbook II",
+    "description": "Playbook II: Electric-Bang-a-Loo and several additional titles appear."
+  }
+]

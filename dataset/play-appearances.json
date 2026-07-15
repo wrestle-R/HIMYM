@@ -1,0 +1,198 @@
+[
+  {
+    "id": "pa-001",
+    "playId": "the-duffel-bag",
+    "episodeId": "s01e03",
+    "status": "used",
+    "notes": "Barney climbs out of the duffel bag."
+  },
+  {
+    "id": "pa-002",
+    "playId": "the-time-traveler",
+    "episodeId": "s04e04",
+    "status": "used",
+    "notes": "Normalized from the supplied S2E04 conflict to Intervention's aired code, S4E04."
+  },
+  {
+    "id": "pa-003",
+    "playId": "the-naked-man",
+    "episodeId": "s04e09",
+    "status": "featured",
+    "notes": "The move is the episode's central device."
+  },
+  {
+    "id": "pa-004",
+    "playId": "the-trojan-lesbian",
+    "episodeId": "s04e03",
+    "status": "used",
+    "notes": "Used during the New Jersey storyline."
+  },
+  {
+    "id": "pa-005",
+    "playId": "the-one-week-to-live",
+    "episodeId": "s03e14",
+    "status": "mentioned",
+    "notes": "Named while the gang reviews Barney's past plays."
+  },
+  {
+    "id": "pa-006",
+    "playId": "the-snasa",
+    "episodeId": "s05e08",
+    "status": "demonstrated",
+    "notes": "Shown as a Playbook entry."
+  },
+  {
+    "id": "pa-007",
+    "playId": "the-cheap-trick",
+    "episodeId": "s05e08",
+    "status": "demonstrated",
+    "notes": "Shown as a Playbook entry."
+  },
+  {
+    "id": "pa-008",
+    "playId": "my-penis-grants-wishes",
+    "episodeId": "s05e08",
+    "status": "demonstrated",
+    "notes": "Shown as a Playbook entry."
+  },
+  {
+    "id": "pa-009",
+    "playId": "hes-not-coming",
+    "episodeId": "s05e08",
+    "status": "demonstrated",
+    "notes": "Demonstrated at the Empire State Building."
+  },
+  {
+    "id": "pa-010",
+    "playId": "dont-drink-that",
+    "episodeId": "s05e08",
+    "status": "demonstrated",
+    "notes": "Demonstrated with Ted as the fall guy."
+  },
+  {
+    "id": "pa-011",
+    "playId": "the-ted-mosby",
+    "episodeId": "s05e08",
+    "status": "demonstrated",
+    "notes": "Barney borrows Ted's identity and story."
+  },
+  {
+    "id": "pa-012",
+    "playId": "mrs-stinsfire",
+    "episodeId": "s05e08",
+    "status": "demonstrated",
+    "notes": "Shown as a disguise-based Playbook entry."
+  },
+  {
+    "id": "pa-013",
+    "playId": "lorenzo-von-matterhorn",
+    "episodeId": "s05e08",
+    "status": "demonstrated",
+    "notes": "Supported by an ecosystem of fabricated websites."
+  },
+  {
+    "id": "pa-014",
+    "playId": "the-scuba-diver",
+    "episodeId": "s05e08",
+    "status": "entire-episode",
+    "notes": "The episode reveals the entire layered play."
+  },
+  {
+    "id": "pa-015",
+    "playId": "call-barney-stinson",
+    "episodeId": "s05e14",
+    "status": "used",
+    "notes": "Barney turns a Super Bowl sign into a national invitation."
+  },
+  {
+    "id": "pa-016",
+    "playId": "two-can-play-at-that-game",
+    "episodeId": "s08e10",
+    "status": "mentioned",
+    "notes": "Mentioned during The Over-Correction."
+  },
+  {
+    "id": "pa-017",
+    "playId": "the-robin",
+    "episodeId": "s08e12",
+    "status": "revealed",
+    "notes": "The final page reveals Barney's proposal plan."
+  },
+  {
+    "id": "pa-018",
+    "playId": "royal-archduke-grand-fenwick",
+    "episodeId": "s08e17",
+    "status": "mentioned",
+    "notes": "Normalized from the supplied S8E16 conflict to The Ashtray's aired code, S8E17."
+  },
+  {
+    "id": "pa-019",
+    "playId": "weekend-at-barneys",
+    "episodeId": "s08e18",
+    "status": "mentioned",
+    "notes": "Barney imagines a Weekend at Bernie's-inspired play."
+  },
+  {
+    "id": "pa-020",
+    "playId": "the-special-delivery",
+    "episodeId": "s08e18",
+    "status": "mentioned",
+    "notes": "Named while Barney guides Ted through the Playbook."
+  },
+  {
+    "id": "pa-021",
+    "playId": "the-kidney",
+    "episodeId": "s08e18",
+    "status": "mentioned",
+    "notes": "Named while Barney guides Ted through the Playbook."
+  },
+  {
+    "id": "pa-022",
+    "playId": "pet-loch-ness-monster",
+    "episodeId": "s08e18",
+    "status": "mentioned",
+    "notes": "Named while Barney guides Ted through the Playbook."
+  },
+  {
+    "id": "pa-023",
+    "playId": "my-penis-grants-wishes",
+    "episodeId": "s09e09",
+    "status": "briefly-visible",
+    "notes": "The title is visible in Platonish."
+  },
+  {
+    "id": "pa-024",
+    "playId": "my-penis-grants-wishes",
+    "episodeId": "s09e16",
+    "status": "implied-success",
+    "notes": "Kelly implies the play worked on her."
+  },
+  {
+    "id": "pa-025",
+    "playId": "the-mannequin",
+    "episodeId": "s09e24",
+    "status": "briefly-visible",
+    "notes": "A Playbook II title shown during the finale."
+  },
+  {
+    "id": "pa-026",
+    "playId": "the-jim-nacho",
+    "episodeId": "s09e24",
+    "status": "briefly-visible",
+    "notes": "A Playbook II title shown during the finale."
+  },
+  {
+    "id": "pa-027",
+    "playId": "the-rumspringa",
+    "episodeId": "s09e24",
+    "status": "briefly-visible",
+    "notes": "A Playbook II title shown during the finale."
+  },
+  {
+    "id": "pa-028",
+    "playId": "one-day-left",
+    "episodeId": "s09e24",
+    "status": "briefly-visible",
+    "notes": "A Playbook II title shown during the finale."
+  }
+]
