@@ -1,5 +1,6 @@
+import Image from "next/image"
 import Link from "next/link"
-import { ArrowUpRightIcon, BookOpenIcon, SparklesIcon } from "lucide-react"
+import { ArrowUpRightIcon, SparklesIcon } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 
@@ -18,7 +19,13 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
             aria-label="Legend-dairy home"
           >
             <span className="archive-nav-seal">
-              <BookOpenIcon aria-hidden="true" />
+              <Image
+                src="/media/legend-dairy-logo.png"
+                alt=""
+                width={48}
+                height={48}
+                priority
+              />
             </span>
             <span className="flex min-w-0 flex-col">
               <span className="display-type truncate text-xl leading-none tracking-[-0.02em] sm:text-2xl">
