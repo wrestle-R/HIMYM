@@ -97,19 +97,13 @@ export function Hero() {
         >
           <div className="book-glow" />
           <Image
-            src="/media/playbook-cover.png"
-            alt="A black leather-bound Playbook with antique-gold tooling"
+            src="/media/playbook-cover-v2.png"
+            alt="The Playbook, a black leather-bound book with antique-gold tooling"
             fill
             priority
             sizes="(max-width: 1024px) 90vw, 44vw"
-            className="book-cover-shadow object-contain"
+            className="book-cover-shadow scale-[1.06] object-contain"
           />
-          <div className="pointer-events-none absolute top-[39%] left-[31%] rotate-[6deg] text-center text-gold">
-            <p className="display-type text-xs tracking-[0.28em] uppercase sm:text-sm">
-              The
-            </p>
-            <p className="script-type mt-1 text-3xl sm:text-5xl">Playbook</p>
-          </div>
         </motion.div>
 
         <a
